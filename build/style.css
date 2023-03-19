@@ -10,18 +10,17 @@ body {
 .Container {
   display: grid;
   grid-template: 1fr 1fr / 1fr 1fr;
-  border: 1rem inset hsla(36, 48%, 36%, 0.726);
+  outline: 1rem inset hsla(36, 48%, 36%, 0.726);
 }
 
 .New,
 .Old,
 .Archive {
-  border: 0.5em solid hsl(36, 48%, 56%);
+  outline: 0.5em solid hsl(36, 48%, 56%);
 }
 
 p {
   font-size: 1.5rem;
-  /* width: clamp(45ch, 50%, 75ch */
 }
 
 .New {
@@ -52,5 +51,5 @@ p {
   display: flex;
   justify-content: center;
   font-size: 2.3em;
-  border: .2em dashed hsl(36, 50%, 29%);
+  outline: .2em dashed hsl(36, 50%, 29%);
 }
